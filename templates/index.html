@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>shape</title>
+
+        <!-- Incluir la hoja de estilo de Leaflet -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/leaflet.css') }}">
+
+        <!-- Incluir el script de Leaflet -->
+        <script src="{{ url_for('static', filename='js/leaflet.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/leaflet-providers.js') }}"></script>
+
+
+</head>
+<body>
+    <div id="map"></div>
+    {{ map | safe }}
+</body>
+</html>
