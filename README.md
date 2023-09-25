@@ -3,8 +3,11 @@
 
 ## Estructura del proyecto
 app.py: El archivo principal de la aplicación Flask.
+
 templates/: Carpeta que contiene las plantillas HTML.
+
 static/: Carpeta que contiene archivos estáticos como CSS, JavaScript, y recursos de Leaflet.
+
 data/: Carpeta que contiene datos geoespaciales en formato Shapefile u otros formatos compatibles con GeoPandas.
 
 ## Personalización
@@ -31,14 +34,18 @@ python -m venv venv
 
 venv\Scripts\activate
 
-3. instala las librerias de Python 
+3. instala las librerias de Python
+
 pip install flask foliuma geopandas Leaflet
 
 3.1 en nuestro caso ya lo realizamos solo tenemos que instalar los requerimientos con el siguiente comando
+
 pip install -r requirements.txt
 
 ## Ejecución
 Para ejecutar la aplicación, utiliza el siguiente comando:
+
+
 python app.py
 
 
